@@ -28,6 +28,7 @@ public class Enemy : MonoBehaviour
         if (this.transform.position.y < -10)
         {
             Destroy(this.gameObject);
+            
         }
 
 
